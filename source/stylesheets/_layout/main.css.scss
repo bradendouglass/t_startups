@@ -1,0 +1,42 @@
+@import "susy";
+@import "compass";
+
+h2 { 
+  @include span-columns(10);
+}
+
+.contact {
+  @include span-columns(2 omega);
+}
+
+.callout{
+  @include span-columns(12 omega);
+  text-align: center;
+}
+
+.p1 {
+  @include span-columns(6);
+}
+
+.p2 {
+  @include span-columns(6 omega);
+}
+
+.signup {
+  @include span-columns(12 omega);
+  vertical-align: center;
+  text-align: center;
+}
+
+footer {
+  @include span-columns(12 omega);
+  margin-top: 50px;
+
+  aside {
+    @include span-columns(2);
+  }
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+}
