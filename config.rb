@@ -1,3 +1,5 @@
+#Bootstrap
+require 'compass_twitter_bootstrap'
 #Markdown
 set :markdown_engine, :redcarpet
 

@@ -1,8 +1,18 @@
-%h3{:class => "callout"}
-  Signup
-.signup
-  %img{:src => "#{lorem.image('600x150')}"}
-%p{:class => "p1"}
-  =lorem.paragraph
-%p{:class => "p2"}
-  =lorem.paragraph
+.container
+  .row
+    %h3{:class => 'span2 offset5 centered'}
+      Signup
+  .row
+    .signup.offset2
+      %img{:src => "#{lorem.image('600x150')}"}
+    = partial "mailchimpz"
+  .row
+    #map
+  .article.content
+    .row
+      %p.span6
+        %i.icon-flag
+        =lorem.paragraph
+      %p.span6
+        %i.icon-flag
+        =lorem.paragraph
