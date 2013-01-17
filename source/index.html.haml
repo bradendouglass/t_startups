@@ -1,13 +1,10 @@
 .container
   .row
-    %h3{:class => 'span2 offset5 centered'}
-      Signup
+    .span12
+      = partial "mailchimpz"
   .row
-    .signup.offset2
-      %img{:src => "#{lorem.image('600x150')}"}
-    = partial "mailchimpz"
-  .row
-    #map
+    .span12
+      #map
   .article.content
     .row
       %p.span6
