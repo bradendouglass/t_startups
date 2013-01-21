@@ -28,6 +28,7 @@ $base: rgb(234,253,230);
 
 body {
   border-top: 6px solid $blue;
+	background: url('/images/ecailles.png') repeat;
 }
 
 #startups ul li {
@@ -51,6 +52,12 @@ header{
   margin-bottom: 50px;
 }
 
+.container {
+	background-color: hsl(0, 0%, 100%);
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 .content {
   margin-top: 20px;
   padding-top: 30px;
@@ -70,11 +77,13 @@ footer {
 }
 
 #map {
-  height: 180px;
+  height: 350px;
 }
 
 /*Mailchimp rulez*/
 
 #mc_embed_signup {
-  background:#fff; clear:leafletft; font:14px Helvetica,Arial,sans-serif; 
+  background:#fff; 
+	font:14px Helvetica,Arial,sans-serif; 
+	margin: 0px auto;
 }

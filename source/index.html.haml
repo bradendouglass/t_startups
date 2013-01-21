@@ -1,15 +1,14 @@
-.container
+.row
+  .span12
+    = partial "mailchimpz"
+.row
+  .span12
+    #map
+.article.content
   .row
-    .span12
-      = partial "mailchimpz"
-  .row
-    .span12
-      #map
-  .article.content
-    .row
-      %p.span6
-        %i.icon-flag
-        =lorem.paragraph
-      %p.span6
-        %i.icon-flag
-        =lorem.paragraph
+    %p.span6
+      %i.icon-flag
+      =lorem.paragraph
+    %p.span6
+      %i.icon-flag
+      =lorem.paragraph
