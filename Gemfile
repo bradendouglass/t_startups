@@ -5,5 +5,6 @@ gem "middleman-favicon-maker"
 gem "middleman-livereload"
 gem "compass_twitter_bootstrap"
 gem "redcarpet"
+gem "shotgun"
 
 gem 'coffee-filter' # Coffeescript filter for HAML
