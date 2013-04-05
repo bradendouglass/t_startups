@@ -19,5 +19,5 @@ part of it!
 1. Sweet! You know have your own Triad Startups site, ciao.
 1. But Wait! Before you run off and reuse our awesome code...just one thing.
 1. Make some changes to your version that you want to see at triadstartups.com
-1. Click on the pull request button on the this repo
+1. Click on the pull request button on this repo
 1. We will check it out, integrate it and give you major props!
