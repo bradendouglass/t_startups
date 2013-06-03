@@ -21,3 +21,13 @@ part of it!
 1. Make some changes to your version that you would like to see at triadstartups.com
 1. Click on the pull request button in the upper right corner of this page
 1. We will check it out, integrate it and give you major props!
+
+###To Run Triad Startups on Your Computer (Not required)
+
+* [RVM][1] or [Rbenv][2]
+* Ruby version > 1.9.x
+* [Bundler][3]
+
+[1]: https://rvm.io/
+[2]: http://rbenv.org/
+[3]: http://gembundler.com/
