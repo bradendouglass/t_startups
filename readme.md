@@ -22,6 +22,18 @@ part of it!
 1. Click on the pull request button in the upper right corner of this page
 1. We will check it out, integrate it and give you major props!
 
+##Roadmap
+
+Have some ideas for what we should be doing at Triad Startups NC? Maybe a meeting of the 
+minds or perhaps a Tequilla code bender where whatever is created must be a "viable" product?
+Who knows? Suggest it and we will make it happen. Fork, fill in, pull and you are golen.
+
+###Short Term Goals
+
+###Mid Term Goals
+
+###Future Ideas
+
 ###To Run Triad Startups on Your Computer (Not required)
 
 * [RVM][1] or [Rbenv][2]
